@@ -120,7 +120,7 @@ contract AfblockEscrow {
         Order storage order = orders[orderId];
         require(order.buyer != address(0), "No buyer");
         require(!order.completed, "Already completed");
-        require(!order.disputed, "Dispute active – admin only");
+        require(!order.disputed, "Dispute active admin only");
         require(block.timestamp > order.createdAt + 30 minutes, "Not yet expired");
 
         order.completed = true;
