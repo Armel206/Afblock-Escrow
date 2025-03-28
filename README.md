@@ -1,12 +1,34 @@
-# React + Vite
+# 🛡️ Afblock Escrow (Testnet)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Afblock Escrow** est une application décentralisée (dApp) sécurisée permettant aux utilisateurs de créer, accepter et finaliser des transactions sous séquestre avec **BNB**, **BUSD** et **USDT** sur le réseau **Binance Smart Chain (BSC)**. Le projet cible principalement les particuliers en Afrique, lancement initial au Cameroun.
 
-Currently, two official plugins are available:
+## 🚀 Fonctionnalités principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ Création d’ordres avec valeur en BNB
+- ✅ Acceptation et confirmation de paiement
+- ✅ Gestion des litiges (utilisateur & administrateur)
+- ✅ Annulation automatique après 30 minutes
+- ✅ Interface dédiée pour l’administrateur
+- ✅ Responsive (mobile & desktop)
+- ✅ Chargement dynamique des ordres + filtrage (Actifs, Complétés, Litiges)
+- ✅ Smart Contract sécurisé audité (off-chain Mobile Money)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧩 Technologies
+
+| Frontend             | Backend (smart contract) | Déploiement         |
+|----------------------|--------------------------|----------------------|
+| React + Vite         | Solidity (BSC Testnet)   | GitHub + Vercel      |
+| Tailwind CSS         | ethers.js                | Metamask             |
+| Lucide Icons         | Remix IDE (sécurité)     |                      |
+
+---
+
+## ⚙️ Installation (dev)
+
+```bash
+git clone https://github.com/Armel206/Afblock-Escrow.git
+cd Afblock-Escrow
+npm install
+npm run dev
