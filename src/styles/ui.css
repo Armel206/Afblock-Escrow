@@ -1,0 +1,20 @@
+.section {
+    @apply my-8 p-4 border rounded-md bg-white shadow-sm;
+  }
+  
+  .section h2 {
+    @apply text-lg font-semibold mb-4 text-gray-800;
+  }
+  
+  .input {
+    @apply border px-3 py-2 rounded w-full sm:w-64;
+  }
+  
+  .button {
+    @apply bg-black text-white px-4 py-2 rounded hover:bg-gray-800 transition;
+  }
+  
+  .status {
+    @apply text-sm mt-2 text-gray-600;
+  }
+  
